@@ -57,7 +57,7 @@
 		6B3601E6269DD4A50028DEC2 /* Demo_Project_02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_Project_02UITests.swift; sourceTree = "<group>"; };
 		6B3601E8269DD4A50028DEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B3601F4269DD6290028DEC2 /* DistinctOperator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DistinctOperator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		6B3601F5269DD62A0028DEC2 /* TakingOperator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TakingOperator.playground; sourceTree = "<group>"; };
+		6B3601F5269DD62A0028DEC2 /* TakingOperator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TakingOperator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6B3601F6269DD62A0028DEC2 /* SkipOperator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SkipOperator.playground; sourceTree = "<group>"; };
 		6B3601F7269DD62A0028DEC2 /* IgnoringOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = IgnoringOperators.playground; sourceTree = "<group>"; };
 		9EA872924AD80FA1E332CA81 /* Pods_Demo_Project_02UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo_Project_02UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };

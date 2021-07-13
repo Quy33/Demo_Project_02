@@ -39,4 +39,4 @@ subject1.onNext("5")
 trigger1.onNext("XXX")
 subject1.onNext("6")
 subject1.onNext("7")
-
+//This line is only used to test GitHub desktop

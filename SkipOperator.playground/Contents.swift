@@ -1,5 +1,7 @@
 import UIKit
 import RxSwift
+
+//skip(:_)
 let disposebag = DisposeBag()
 
 Observable.of("A", "B", "C", "D", "E", "F")
@@ -9,18 +11,17 @@ Observable.of("A", "B", "C", "D", "E", "F")
     }).disposed(by: disposebag)
 
 let bag = DisposeBag()
-/*
-Observable.of(2, 4, 8, 9 ,2 ,9 , 5, 7, 0, 10)
+
+print("//////////")
+
+//skip(while:_)
+Observable.of(2, 4, 8, 9 ,2 ,4 , 5, 7, 0, 10)
     .skip(while: { $0 % 2 == 0 })
     .subscribe(onNext: { print($0) }).disposed(by: bag)
-*/
 
-Observable.of(2, 4, 8, 9, 2, 4, 5, 7, 0, 10)
-    .skip(while: { $0 % 2 == 0 })
-    .subscribe(onNext: {
-        print($0) })
-    .disposed(by: bag)
+print("//////////")
 
+//skip(until:_)
 let bag2 = DisposeBag()
 let subject = PublishSubject<String>()
 let trigger = PublishSubject<String>()
@@ -40,3 +41,4 @@ trigger.onNext("XXX")
 
 subject.onNext("6")
 subject.onNext("7")
+

@@ -1,6 +1,7 @@
 import UIKit
 import RxSwift
 let disposeBag = DisposeBag()
+//Equatable Type
 Observable.of("A" ,"A" ,"B" , "B" ,"A" ,"A" ,"C" ,"A")
     .distinctUntilChanged()
     .subscribe(onNext: {
@@ -10,7 +11,7 @@ struct Point {
     var x : Int
     var y : Int
 }
-
+//Custom Type
 let array = [Point(x: 0, y: 1),
                 Point(x: 0, y: 2),
                 Point(x: 1, y: 0),
